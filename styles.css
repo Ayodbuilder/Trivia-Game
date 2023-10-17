@@ -72,7 +72,7 @@ body{
         padding-top: 10rem;
         max-width: 500px;
         image-orientation: flip;
-        background-attachment: scroll;
+        background-attachment: fixed;
         max-height: 100vh;
         background-image: url(./quiz-mobile\ \(2\).jpg);
     }
@@ -87,6 +87,7 @@ body{
         max-width: 80%;
         size-adjust: small;
         text-align: left;
+        magin-top: 10rem;
     }
 
     .instruction{
