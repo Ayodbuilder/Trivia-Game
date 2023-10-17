@@ -12,7 +12,7 @@ body{
     margin-top: 8rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(./image/QUIZ.jpg)    
+    background-image: url(./QUIZ.jpg)    
 }
 
 .text-center{
@@ -74,7 +74,7 @@ body{
         image-orientation: flip;
         background-attachment: scroll;
         max-height: 100vh;
-        background-image: url(./image/quiz-mobile\ \(2\).jpg);
+        background-image: url(./quiz-mobile\ \(2\).jpg);
     }
 
     .text-center{
