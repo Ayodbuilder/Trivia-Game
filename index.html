@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz| Test yourself</title>
+    <link rel="shortcut icon" href="./image/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="entire-webpage">
+        <h1 class="text-center">IQ TEST (Answer these questions to test your IQ)</h1>
+        <p class="instruction"><b>Each Question carries 5 marks.</b></p>
+        <div id="quiz" class="card">
+            <div class="card-body">
+                <p id="question" class="card-text"></p>
+                <div id="options" class="answer-options">
+                </div>
+                <button id="next" class="Next">Next Question</button>
+               <div id="errorMessage" class="hidden">Please select an answer!</div>
+            </div>
+        </div>
+        <div id="result">
+            <h2 class="quiz-result">Your Score: <span id="score">0</span></h2>
+        </div>
+    </div>
+
+    <script src="./quiz.js"></script>
+</body>
+</html>
+
